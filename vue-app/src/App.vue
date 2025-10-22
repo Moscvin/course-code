@@ -1,11 +1,11 @@
 <script setup>
-let a = 10;
+// const id = "red";
+// const isAdmin = true;
 </script>
 
 <template>
-  <header>{{ a }}</header>
-  <main>Hello</main>
-  <footer>Footer</footer>
+  <header :class="`color-${blue}`"></header>
+  <main :id>Content</main>
 </template>
 
 <style scoped></style>
