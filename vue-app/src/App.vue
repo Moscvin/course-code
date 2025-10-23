@@ -1,10 +1,12 @@
 <script setup>
 import Button from "./components/Button.vue";
+import Stat from "./components/Stat.vue";
 </script>
 
 <template>
   <main class="main">
-    <Button> Save</Button>
+    <Button>Save</Button>
+    <Stat />
   </main>
 </template>
 
