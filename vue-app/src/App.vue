@@ -1,11 +1,17 @@
 <script setup>
-// const id = "red";
-// const isAdmin = true;
+import Button from "./components/Button.vue";
 </script>
 
 <template>
-  <header :class="`color-${blue}`"></header>
-  <main :id>Content</main>
+  <main class="main">
+    <Button> Save</Button>
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.main {
+  background: var(--color-bg-main);
+  padding: 60px 50px;
+  border-radius: 25px;
+}
+</style>
