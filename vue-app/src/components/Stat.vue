@@ -1,7 +1,7 @@
 <script setup>
-const {label= "Dont know",stat} = defineProps({
-  label:String,
-  stat:String,
+const { label = "Dont know", stat } = defineProps({
+  label: String,
+  stat: String,
 });
 </script>
 <template>
@@ -20,6 +20,7 @@ const {label= "Dont know",stat} = defineProps({
 }
 .stat-name {
   font-weight: 700;
+  text-transform: uppercase;
 }
 .stat-value {
   font-weight: 500;
